@@ -167,7 +167,7 @@ h5{font-weight: normal}
 
 .header-in .logo img{transition: all .3s ease}
 .header-in .mulu img{transition: all .3s ease}
-.header-in .mulu img{display: none}
+
 
 .header-small .header-in{margin: 15px auto;transition: all .3s ease}
 
@@ -854,7 +854,7 @@ h5{font-weight: normal}
 .case-fixed{position: fixed;width: 25px;left: 50%;margin-left: 520px}}
 
 @media screen and (max-width:750px){.footer{display: none}
-
+@media screen and (max-width:750px){.mulu{display: none}
 .banner{display: none}
 
 .header{height: 60px}
