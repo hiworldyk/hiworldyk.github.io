@@ -166,12 +166,15 @@ h5{font-weight: normal}
 .header-in{width: 95%;margin: 35px auto;height: 30px;transition: all .3s ease}
 
 .header-in .logo img{transition: all .3s ease}
+.header-in .mulu img{transition: all .3s ease}
 
 .header-small .header-in{margin: 15px auto;transition: all .3s ease}
 
 .header-small .logo img{height: 22px;margin-top: 4px}
+.header-small .mulu img{height: 22px;margin-top: 4px}
 
 .header .logo{float: left;margin-left: 10px}
+.header .mulu{float: right;margin-right: 15px}
 
 .header .meun-off{float: right;margin-right: 10px}
 
@@ -858,6 +861,7 @@ h5{font-weight: normal}
 .header-small{height: 40px}
 
 .header .logo img{height: 15px;margin-top: 9px}
+.header .mulu img{height: 15px;margin-top: 9px}
 
 .header .meun-off{margin-right: 0}
 
@@ -888,6 +892,7 @@ h5{font-weight: normal}
 .header-in{margin: 15px auto;width: 94%}
 
 .header .logo{margin-left: 0}
+
 
 .header-small .header-in{margin: 5px auto}
 
