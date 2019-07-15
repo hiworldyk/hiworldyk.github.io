@@ -48,7 +48,7 @@ blockquote,
 
 th,
 
-td{margin: 0;padding: 0;font-size: 16px;font-family: "PingFang SC", "HanHei SC", "Helvetica Neue", Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;line-height: 2em}
+td{margin: 0;padding: 0;font-size: 16px;font-family: "PingFang SC","HanHei SC", "Helvetica Neue", Microsoft Yahei, "Helvetica", "STHeitiSC-Light", "Arial", sans-serif;line-height: 2em}
 
 article,
 
@@ -137,7 +137,7 @@ h5{font-weight: normal}
 
 .tran{transition: all .3s ease}
 
-.back2top{display: block;width: 43px;height: 43px;background: url(../images/back2top.png) no-repeat;position: fixed;right: 3.5%;bottom: 15%;opacity: .33;z-index: 99}
+.back2top{display: block;width: 43px;height: 43px;background: url(../images/back2top.png) no-repeat;position: relative;right: -123%;bottom: 12%;opacity: .33;z-index: 8}
 
 .back2top:hover{opacity: 1}
 
@@ -159,11 +159,12 @@ h5{font-weight: normal}
 
 .pager .p1:last-child{display: none}
 
-.header{height: 100px;width: 100%;position: fixed;top: 0;left: 0;z-index: 99;transition: all .3s ease}
+.header{height: 100px;width: 100%;position: relative;top: 0;
+	z-index: 9;left: 0;transition: all .3s ease}
 
-.header-small{height: 60px;background: #fff;-webkit-box-shadow: rgba(0, 0, 0, .1) 0 1px 5px;-moz-box-shadow: rgba(0, 0, 0, .1) 0 1px 5px;box-shadow: rgba(0, 0, 0, .1) 0 1px 5px;transition: all .3s ease}
+.header-small{position: fixed;height: 60px;background: #fff;-webkit-box-shadow: rgba(0, 0, 0, .1) 0 1px 5px;-moz-box-shadow: rgba(0, 0, 0, .1) 0 1px 5px;box-shadow: rgba(0, 0, 0, .1) 0 1px 5px;transition: all .3s ease}
 
-.header-in{width: 95%;margin: 35px auto;height: 30px;transition: all .3s ease}
+.header-in{width: 95%;margin: 30px auto;height: 40px;transition: all .3s ease}
 
 .header-in .logo img{transition: all .3s ease}
 .header-in .mulu img{transition: all .3s ease}
@@ -174,10 +175,10 @@ h5{font-weight: normal}
 .header-small .logo img{height: 22px;margin-top: 4px}
 .header-small .mulu img{height: 22px;margin-top: 4px}
 
-.header .logo{float: left;margin-left: 10px}
+.header .logo{float: left;margin-left: 0px}
 .header .mulu{float: right;margin-right: 15px}
 
-.header .meun-off{float: right;margin-right: 10px}
+.header .meun-off{float: right;margin-right: 0px}
 
 .header .meun-off span{width: 23px;height: 2px;background-color: #000;display: block;margin: 6px auto;-webkit-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;transition: all .3s ease-in-out}
 
@@ -225,9 +226,22 @@ h5{font-weight: normal}
 
 .slide .hd ul{text-align: center}
 
-.slide .hd ul li{cursor: pointer;display: inline-block;*display: inline;zoom: 1;width: 14px;height: 14px;margin: 5px;overflow: hidden;font-size: 0;background-color: #fff;border-radius: 50%}
+.slide .hd ul li{
+	cursor: pointer;
+	display: inline-block;
+*display: inline;	zoom: 1;
+	width: 14px;
+	height: 14px;
+	margin: 5px;
+	overflow: hidden;
+	font-size: 0;
+	background-color: #CCC;
+	border-radius: 50%
+}
 
-.slide .hd ul .on{background-color: #ff0}
+.slide .hd ul .on{
+	background-color: #FFF
+}
 
 .slide .prev,
 
@@ -253,9 +267,6 @@ h5{font-weight: normal}
 
 .banner .hd ul{text-align: center}
 
-.banner .hd ul li{cursor: pointer;display: inline-block;*display: inline;zoom: 1;width: 10px;height: 10px;margin: 5px;overflow: hidden;font-size: 0;background-color: #fff;border-radius: 50%}
-
-.banner .hd ul .on{background-color: #ff0}
 
 .banner .prev,
 
@@ -269,11 +280,19 @@ h5{font-weight: normal}
 
 .banner .next:hover{filter: alpha(opacity=80);opacity: .8}
 
-.warp1{width: 1080px;margin: 0 auto;padding: 57px 0 80px;position: relative;z-index: 9;background-color: #fff}
+.warp1{
+	width: 1400px;
+	margin: 48px;
+	padding: 57px 0 80px;
+	position: relative;
+	z-index: 8;
+	background-color: #fff;
+	font-family: "PingFang SC", "HanHei SC", "Helvetica Neue", "Microsoft Yahei", Helvetica, STHeitiSC-Light, Arial, sans-serif;
+}
 
 .warp1 h3{font-size: 36px;color: #5f6061;margin-bottom: 48px}
 
-.warp1 p a{color: #9fa0a0;transition: all .3s ease;font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;}
+.warp1 p a{font-size: 18px;color: #9fa0a0;transition: all .3s ease;font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;}
 
 .warp1 div:hover p a{color: #000}
 
@@ -285,11 +304,11 @@ h5{font-weight: normal}
 
 .warp1 .p3{-webkit-animation: fadeleft .8s .3s ease both;-ms-animation: fadeleft .8s .3s ease both;-moz-animation: fadeleft .8s .3s ease both;animation: fadeleft 1.2s .3s ease both}
 
-.warp2{width: 95%;margin: 0 auto;position: relative;z-index: 10;background-color: #fff}
+.warp2{width: 95%;margin: 0 auto;position: relative;z-index: 6;background-color: #fff}
 
 .warp2 .warp-type{height: 50px;position: relative;margin-bottom: 25px}
 
-.warp2 .warp-type p{font-size: 18px;width: 1080px;line-height: 50px;position: absolute;left: 50%;margin-left: -540px;z-index: 0}
+.warp2 .warp-type p{font-size: 18px;width: 1080px;line-height: 50px;position: absolute;left: 29.8%;margin-left: -540px;z-index: 0}
 
 .warp2 .warp-type p a:hover {color: #000}
 
@@ -297,7 +316,7 @@ h5{font-weight: normal}
 
 .warp2 .warp-type-list .active{text-decoration: underline;color: #000;font-size: 18px}
 
-.warp2 .warp-type-list a{display: inline-block;margin-right: 25px;line-height: 50px;color: #888889;font-size: 14px}
+.warp2 .warp-type-list a{display: inline-block;margin-right: 0px;line-height: 50px;color: #888889;font-size: 14px}
 
 .warp2 .warp-type-list a:hover{
 	text-decoration: underline;
@@ -321,7 +340,7 @@ h5{font-weight: normal}
 
 .warp2 .case-summary .p2{bottom: 0;font-size: 16px}
 
-.warp2 .case-more{display: block;width: 148px;height: 40px;margin: 100px auto;border: 2px solid #959595;text-align: center;line-height: 40px}
+.warp2 .case-more{display: block;width: 200px;height: 40px;margin: 100px auto;border: 2px solid #959595;text-align: center;line-height: 40px}
 
 .warp3{width: 1180px;margin: 0 auto;display: -webkit-flex;display: flex;justify-content: space-between;position: relative;z-index: 10;background-color: #fff}
 
@@ -351,7 +370,7 @@ h5{font-weight: normal}
 
 .warp4 li a:hover{color: #000;}
 
-.footer{background: #333;padding: 45px 0;position: relative;z-index: 10}
+.footer{background: #333;padding: 45px 0;position: relative;z-index: 5}
 
 .footer-in{width: 1180px;margin: 0 auto;color: #6a6a6a}
 
@@ -359,7 +378,7 @@ h5{font-weight: normal}
 
 .footer1-1{width: 102px;font-size: 12px;text-align: center;color: #6a6a6a}
 
-.footer1-2{width: 225px;font-size: 12px;color: #6a6a6a}
+.footer1-2{width: 250px;font-size: 12px;color: #6a6a6a}
 
 .footer1-2 img{display: block;margin-bottom: 20px}
 
@@ -375,7 +394,7 @@ h5{font-weight: normal}
 
 .footer2 dl dd a:hover{color: #fff}
 
-.footer3{width: 255px;font-size: 12px;color: #757575}
+.footer3{width: 300px;font-size: 12px;color: #757575}
 
 .footer-bottom{margin-top: 25px}
 
@@ -391,17 +410,17 @@ h5{font-weight: normal}
 
 .case-content{padding-bottom: 150px}
 
-.case-list{width: 94%;margin: 150px auto 0}
+.case-list{width: 94%;margin: 0px auto 0}
 
 .case-list .warp-type{height: 50px;position: relative;margin-bottom: 25px}
 
-.case-list .warp-type p{font-size: 18px;line-height: 50px;position: absolute;left: 33.33333%;margin-left: -160px;z-index: 0;width: 160px}
+.case-list .warp-type p{font-size: 18px;line-height: 50px;position: absolute;left: 33.33333%;margin-left: -600px;z-index: 0;width: 200px}
 
-.case-list .warp-type-list{float: right;position: absolute;z-index: 11;right: 0}
+.case-list .warp-type-list{float: right;position: absolute;z-index: 8;right: 0}
 
 .case-list .warp-type-list .active{text-decoration: underline;color: #000;font-size: 16px}
 
-.case-list .warp-type-list a{display: inline-block;margin-right: 20px;line-height: 50px;color: #888889;font-size: 14px}
+.case-list .warp-type-list a{display: inline-block;margin-right: 10px;line-height: 50px;color: #888889;font-size: 14px}
 
 .case-list .warp-type-list a:hover{text-decoration: underline}
 
@@ -475,9 +494,19 @@ h5{font-weight: normal}
 
 .share-list.active{visibility: visible;z-index: 1;opacity: 1}
 
-.share-list li a{height: 24px;line-height: 24px;display: block;padding-left: 34px;color: #FFF;font-size: 14px;position: relative}
+.share-list li a{
+	height: 24px;
+	line-height: 24px;
+	display: block;
+	padding-left: 34px;
+	color: #999;
+	font-size: 14px;
+	position: relative
+}
 
-.share-list li a:hover{color: #ffe514}
+.share-list li a:hover{
+	color: #FFF
+}
 
 .share-list li .icon{width: 24px;height: 24px;display: block;position: absolute;left: 0;top: 50%;margin-top: -12px}
 
@@ -655,11 +684,11 @@ h5{font-weight: normal}
 
 @media screen and (max-width:1920px){html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td{font-size: 14px}
 
-.header-small{height: 40px}
+.header-small{height: 50px}
 
 .header-small .logo img{height: 19px;margin-top: 6px;}
 
-.header-small .header-in{margin: 5px auto}
+.header-small .header-in{margin: 10px auto}
 
 .fullSlide .hd{margin-top: -50px}
 
@@ -863,7 +892,7 @@ h5{font-weight: normal}
 @media screen and (max-width:750px){.header .mulu{display: none}
 .banner{display: none}
 
-.header{height: 60px}
+.header{height: 40px}
 
 .header-small{height: 40px}
 
