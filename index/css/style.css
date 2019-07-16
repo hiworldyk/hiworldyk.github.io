@@ -308,7 +308,7 @@ h5{font-weight: normal}
 
 .warp1 h3{font-size: 36px;color: #5f6061;margin-bottom: 48px}
 
-.warp1 p a{font-size: 18px;color: #9fa0a0;transition: all .3s ease;font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;}
+.warp1 p a{color: #9fa0a0;transition: all .3s ease;font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;}
 
 .warp1 div:hover p a{color: #000}
 
