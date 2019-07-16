@@ -306,9 +306,9 @@ h5{font-weight: normal}
 	font-family: "PingFang SC", "HanHei SC", "Helvetica Neue", "Microsoft Yahei", Helvetica, STHeitiSC-Light, Arial, sans-serif;
 }
 
-.warp1 h3{font-size: 36px;color: #5f6061;margin-bottom: 48px}
+.warp1 h3{font-size: 34px;color: #5f6061;margin-bottom: 48px}
 
-.warp1 p a{color: #9fa0a0;transition: all .3s ease;font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;}
+.warp1 p a{font-size: 16px;color: #9fa0a0;transition: all .3s ease;font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;}
 
 .warp1 div:hover p a{color: #000}
 
@@ -722,7 +722,7 @@ h5{font-weight: normal}
 
 .warp1{padding: 55px 0 80px;}
 
-.warp1 h3{margin-bottom: 60px;}
+.warp1 h3{margin-bottom: 40px;}
 
 .warp2 .case-summary .p1{font-size: 18px}
 
@@ -940,6 +940,7 @@ h5{font-weight: normal}
 .warp-type-list{position: static;float: left}
 
 .warp1 h3{font-size: 16px;margin-bottom: 20px;line-height: 1em}
+.warp1 p a{font-size: 12px;}
 
 .header-in{margin: 15px auto;width: 94%}
 
